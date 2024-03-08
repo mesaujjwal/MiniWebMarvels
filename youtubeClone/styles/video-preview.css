@@ -16,12 +16,6 @@
     margin: 0;
 } */
 
-p {
-    font-family: "Roboto", sans-serif;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 .thumbnail{
     /* width: 300px; */
     width: 100%;
@@ -32,10 +26,6 @@ p {
     border-width: 2px;
     border-style: solid;
     border-color: red; */
-}
-
-.search-bar {
-    display: block;
 }
 
 .video-title {
@@ -100,5 +90,4 @@ p {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
-
 }

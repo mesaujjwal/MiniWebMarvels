@@ -28,6 +28,14 @@
     /* align-items: center; */
     justify-content: space-between;
     height: 55px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color:lightgray;
+    background-color: white;
 }
 
 .left-section {

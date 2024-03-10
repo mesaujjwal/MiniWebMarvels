@@ -36,6 +36,7 @@
     border-bottom-style: solid;
     border-color:lightgray;
     background-color: white;
+    z-index: 100;
 }
 
 .left-section {
@@ -148,6 +149,21 @@
     cursor: pointer;
     border-radius: 20px;
     border: none;
+    position: relative;
+}
+
+.notifications {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    height: 14px;
+    width: 14px;
+    background-color: rgb(207, 2, 2);
+    color: white;
+    border-radius: 7px;
+    font-size: 10px;
+    font-family: Roboto;
+    padding-top: 2px;
 }
 
 .notifications-button:hover {

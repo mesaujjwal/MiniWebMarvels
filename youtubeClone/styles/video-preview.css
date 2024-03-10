@@ -28,6 +28,25 @@
     border-color: red; */
 }
 
+.thumbnail-row {
+    position: relative;
+}
+
+.time-stamp {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+    font-size: 12px;
+    border-radius: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
 .video-title {
     /* width: 100%; */
     margin-top: 0;
